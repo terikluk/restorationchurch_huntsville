@@ -126,13 +126,16 @@ export default function ConnectPage() {
               ))}
             </div>
           </div>
-          <div className="relative aspect-[3/4] rounded-sm overflow-hidden">
-            <Image
-              src="https://placehold.co/600x800/2E7D52/FFFFFF?text=Serve+Together"
-              alt="Volunteers serving together"
-              fill
-              className="object-cover"
-            />
+          <div className="relative pb-4 pl-4">
+            <div className="absolute bottom-0 left-0 w-full h-full bg-accent rounded-sm" />
+            <div className="relative aspect-[3/4] rounded-sm overflow-hidden shadow-xl z-10">
+              <Image
+                src="https://placehold.co/600x800/2E7D52/FFFFFF?text=Serve+Together"
+                alt="Volunteers serving together"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
         </div>
       </SectionWrapper>

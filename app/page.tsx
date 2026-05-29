@@ -180,13 +180,16 @@ export default function HomePage() {
       {/* ─── I'm New Here ─── */}
       <SectionWrapper className="bg-off-white">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="relative aspect-[4/3] rounded-sm overflow-hidden">
-            <Image
-              src="/New_here.png"
-              alt="People gathered at Restore Church Huntsville"
-              fill
-              className="object-cover"
-            />
+          <div className="relative pb-4 pr-4">
+            <div className="absolute bottom-0 right-0 w-full h-full bg-accent rounded-sm" />
+            <div className="relative aspect-[4/3] rounded-sm overflow-hidden shadow-xl z-10">
+              <Image
+                src="/New_here.png"
+                alt="People gathered at Restore Church Huntsville"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
           <div>
             <p className="text-accent uppercase tracking-widest text-sm font-semibold mb-3">

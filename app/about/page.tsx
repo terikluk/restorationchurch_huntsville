@@ -89,13 +89,16 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
-          <div className="relative aspect-[3/4] rounded-sm overflow-hidden">
-            <Image
-              src="https://placehold.co/600x800/0F3D6E/FFFFFF?text=Our+Story"
-              alt="Restore Church history"
-              fill
-              className="object-cover"
-            />
+          <div className="relative pb-4 pl-4">
+            <div className="absolute bottom-0 left-0 w-full h-full bg-primary rounded-sm" />
+            <div className="relative aspect-[3/4] rounded-sm overflow-hidden shadow-xl z-10">
+              <Image
+                src="https://placehold.co/600x800/0F3D6E/FFFFFF?text=Our+Story"
+                alt="Restore Church history"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
         </div>
       </SectionWrapper>
@@ -140,13 +143,16 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto">
           {leadership.map((person, i) => (
             <div key={i} className="flex flex-col sm:flex-row gap-6 items-start">
-              <div className="relative w-32 h-40 rounded-sm overflow-hidden flex-shrink-0">
-                <Image
-                  src={person.imageUrl}
-                  alt={person.name}
-                  fill
-                  className="object-cover"
-                />
+              <div className="relative pb-2 pr-2 flex-shrink-0">
+                <div className="absolute bottom-0 right-0 w-full h-full bg-accent rounded-sm" />
+                <div className="relative w-32 h-40 rounded-sm overflow-hidden shadow-lg z-10">
+                  <Image
+                    src={person.imageUrl}
+                    alt={person.name}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
               </div>
               <div>
                 <h3 className="font-serif text-xl font-semibold mb-1">{person.name}</h3>
