@@ -56,17 +56,11 @@ export default function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-gray-700 hover:text-primary transition-colors"
+                className="text-sm font-medium text-gray-700 hover:text-accent transition-colors"
               >
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/connect"
-              className="bg-accent hover:bg-accent-dark text-white text-sm font-semibold px-5 py-2.5 rounded-sm transition-colors"
-            >
-              Plan Your Visit
-            </Link>
           </nav>
 
           {/* Mobile Hamburger */}
@@ -95,19 +89,12 @@ export default function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="block text-base font-medium text-gray-700 hover:text-primary"
+              className="block text-base font-medium text-gray-700 hover:text-accent transition-colors"
               onClick={() => setIsMobileOpen(false)}
             >
               {link.label}
             </Link>
           ))}
-          <Link
-            href="/connect"
-            className="block bg-accent text-white text-center text-base font-semibold px-5 py-3 rounded-sm"
-            onClick={() => setIsMobileOpen(false)}
-          >
-            Plan Your Visit
-          </Link>
         </div>
       )}
     </header>
