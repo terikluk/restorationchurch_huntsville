@@ -130,7 +130,7 @@ export default function ConnectPage() {
             <div className="absolute bottom-0 left-0 w-full h-full bg-accent rounded-sm" />
             <div className="relative aspect-[3/4] rounded-sm overflow-hidden shadow-xl z-10">
               <Image
-                src="https://placehold.co/600x800/2E7D52/FFFFFF?text=Serve+Together"
+                src="/Serve_With_Us.png"
                 alt="Volunteers serving together"
                 fill
                 className="object-cover"
