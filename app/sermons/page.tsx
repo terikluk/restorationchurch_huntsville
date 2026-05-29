@@ -1,4 +1,3 @@
-import Image from "next/image";
 import PageHero from "@/components/shared/PageHero";
 import CTASection from "@/components/shared/CTASection";
 import SectionWrapper from "@/components/shared/SectionWrapper";
@@ -20,7 +19,7 @@ const sermons = [
     date: "May 25, 2025",
     passage: "Lamentations 3:22–23",
     duration: "38 min",
-    imageColor: "1B5EA6",
+    videoSrc: "/New_Every_Morning.mov",
   },
   {
     series: "Renewed",
@@ -29,7 +28,7 @@ const sermons = [
     date: "May 18, 2025",
     passage: "Joel 2:25",
     duration: "35 min",
-    imageColor: "2E7D52",
+    videoSrc: "/The_God_Who_Restores.mov",
   },
   {
     series: "Roots",
@@ -38,7 +37,7 @@ const sermons = [
     date: "May 11, 2025",
     passage: "John 15:1–8",
     duration: "44 min",
-    imageColor: "0F3D6E",
+    videoSrc: "/Abiding_In_The_Vine.mov",
   },
   {
     series: "Roots",
@@ -47,7 +46,7 @@ const sermons = [
     date: "May 4, 2025",
     passage: "Psalm 1",
     duration: "40 min",
-    imageColor: "1B5EA6",
+    videoSrc: "/Deep_Waters.mov",
   },
   {
     series: "Roots",
@@ -56,7 +55,7 @@ const sermons = [
     date: "April 27, 2025",
     passage: "Matthew 7:24–27",
     duration: "37 min",
-    imageColor: "1F5A39",
+    videoSrc: "/Built_ON_The_Rock.mov",
   },
 ];
 
@@ -141,14 +140,18 @@ export default function SermonsPage() {
               key={i}
               className="bg-white rounded-sm overflow-hidden shadow-sm hover:shadow-md transition-shadow"
             >
-              <div className="relative aspect-video">
-                <Image
-                  src={`https://placehold.co/600x338/${sermon.imageColor}/FFFFFF?text=${encodeURIComponent(sermon.title)}`}
-                  alt={sermon.title}
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 hover:opacity-100 transition-opacity">
+              <div className="relative aspect-video overflow-hidden group">
+                <video
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="absolute inset-0 w-full h-full object-cover"
+                >
+                  <source src={sermon.videoSrc} type="video/mp4" />
+                  <source src={sermon.videoSrc} type="video/quicktime" />
+                </video>
+                <div className="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity">
                   <div className="w-14 h-14 bg-white/90 rounded-full flex items-center justify-center">
                     <svg className="w-5 h-5 text-primary ml-0.5" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M8 5v14l11-7z" />
