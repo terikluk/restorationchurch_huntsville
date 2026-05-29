@@ -8,12 +8,22 @@
   --color-accent: #2E7D52;
   --color-accent-dark: #1F5A39;
   --color-accent-light: #EBF7F0;
+  --color-amber: #C8902A;
+  --color-amber-dark: #A67220;
+  --color-amber-light: #FDF3E3;
+  --color-cream: #FAF7F2;
   --color-off-white: #F8F9FA;
   --color-muted: #4A5568;
 
   /* Fonts */
   --font-serif: var(--font-playfair);
   --font-sans: var(--font-inter);
+}
+
+@layer utilities {
+  .bg-navy-gradient {
+    background: radial-gradient(ellipse at center, #1B5EA6 0%, #0F3D6E 70%);
+  }
 }
 
 body {

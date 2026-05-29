@@ -69,7 +69,7 @@ export default function GivePage() {
       {/* ─── Philosophy ─── */}
       <SectionWrapper className="bg-white">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-accent uppercase tracking-widest text-sm font-semibold mb-3">
+          <p className="text-amber uppercase tracking-[0.18em] text-sm font-semibold mb-3">
             Why We Give
           </p>
           <h2 className="font-serif text-3xl md:text-4xl font-semibold mb-6">
@@ -91,9 +91,9 @@ export default function GivePage() {
       </SectionWrapper>
 
       {/* ─── Give Now CTA ─── */}
-      <section className="bg-gradient-to-r from-primary-dark to-primary py-16 md:py-28 lg:py-40 px-4 text-white text-center">
+      <section className="bg-gradient-to-r navy-gradient py-14 md:py-20 lg:py-28 px-4 text-white text-center">
         <div className="max-w-2xl mx-auto">
-          <h2 className="font-serif text-3xl md:text-5xl font-semibold mb-4">
+          <h2 className="font-serif text-3xl md:text-5xl font-bold mb-4">
             Give Online Today
           </h2>
           <p className="text-blue-100 text-lg mb-10">
@@ -114,7 +114,7 @@ export default function GivePage() {
       </section>
 
       {/* ─── How to Give ─── */}
-      <SectionWrapper className="bg-off-white">
+      <SectionWrapper className="bg-cream">
         <div className="text-center mb-12">
           <h2 className="font-serif text-3xl font-semibold">Ways to Give</h2>
         </div>
@@ -132,7 +132,7 @@ export default function GivePage() {
       {/* ─── Why We Give ─── */}
       <SectionWrapper className="bg-white">
         <div className="text-center mb-12">
-          <p className="text-accent uppercase tracking-widest text-sm font-semibold mb-2">
+          <p className="text-amber uppercase tracking-[0.18em] text-sm font-semibold mb-2">
             The Heart Behind It
           </p>
           <h2 className="font-serif text-3xl font-semibold">Three Reasons We Give</h2>
@@ -140,8 +140,8 @@ export default function GivePage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {whyWeGive.map((reason, i) => (
             <div key={i} className="text-center px-4">
-              <div className="w-14 h-14 bg-primary-light rounded-full flex items-center justify-center mx-auto mb-5">
-                <span className="font-serif text-2xl font-bold text-primary">{i + 1}</span>
+              <div className="w-14 h-14 bg-amber-light rounded-full flex items-center justify-center mx-auto mb-5">
+                <span className="font-serif text-2xl font-bold text-amber">{i + 1}</span>
               </div>
               <h3 className="font-serif text-xl font-semibold mb-3">{reason.title}</h3>
               <p className="text-muted leading-relaxed">{reason.description}</p>
@@ -155,7 +155,7 @@ export default function GivePage() {
         subtext="We want to make generosity as easy as possible. Reach out and we can help."
         primaryLabel="Contact Us"
         primaryHref="/contact"
-        variant="accent"
+        variant="primary"
       />
     </>
   );

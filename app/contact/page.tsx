@@ -92,7 +92,7 @@ export default function ContactPage() {
             </div>
 
             {/* Service Times */}
-            <div className="bg-off-white rounded-sm p-6 mb-8">
+            <div className="bg-cream rounded-sm p-6 mb-8">
               <h3 className="font-serif text-xl font-semibold mb-4">Service Times</h3>
               {serviceTimes.map((service, i) => (
                 <div key={i} className="mb-4 last:mb-0">

@@ -21,14 +21,9 @@ export default function CTASection({
   variant = "primary",
 }: CTASectionProps) {
   return (
-    <section
-      className={clsx(
-        "py-16 md:py-24 lg:py-32 px-4 text-center text-white",
-        variant === "primary" ? "bg-primary" : "bg-accent"
-      )}
-    >
+    <section className="bg-navy-gradient py-14 md:py-20 px-4 text-center text-white">
       <div className="max-w-3xl mx-auto">
-        <h2 className="font-serif text-3xl md:text-5xl font-semibold mb-4 leading-tight">
+        <h2 className="font-serif text-3xl md:text-5xl font-bold mb-4 leading-tight">
           {heading}
         </h2>
         {subtext && (
@@ -39,19 +34,14 @@ export default function CTASection({
         <div className="flex flex-wrap gap-4 justify-center">
           <Link
             href={primaryHref}
-            className={clsx(
-              "font-semibold px-8 py-4 rounded-sm transition-colors text-base",
-              variant === "primary"
-                ? "bg-white text-primary hover:bg-blue-50"
-                : "bg-white text-accent hover:bg-green-50"
-            )}
+            className="bg-white text-primary font-semibold px-8 py-4 rounded-sm hover:bg-blue-50 transition-colors text-base"
           >
             {primaryLabel}
           </Link>
           {secondaryLabel && secondaryHref && (
             <Link
               href={secondaryHref}
-              className="border-2 border-white text-white font-semibold px-8 py-4 rounded-sm hover:bg-white/10 transition-colors text-base"
+              className="border-2 border-amber text-amber font-semibold px-8 py-4 rounded-sm hover:bg-amber/10 transition-colors text-base"
             >
               {secondaryLabel}
             </Link>

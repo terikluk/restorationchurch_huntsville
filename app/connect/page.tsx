@@ -77,7 +77,7 @@ export default function ConnectPage() {
       {/* ─── Life Groups ─── */}
       <SectionWrapper className="bg-white">
         <div className="text-center mb-12">
-          <p className="text-accent uppercase tracking-widest text-sm font-semibold mb-2">
+          <p className="text-amber uppercase tracking-[0.18em] text-sm font-semibold mb-2">
             Community Groups
           </p>
           <h2 className="font-serif text-3xl md:text-4xl font-semibold mb-4">Life Groups</h2>
@@ -112,10 +112,10 @@ export default function ConnectPage() {
       </SectionWrapper>
 
       {/* ─── Serve Teams ─── */}
-      <SectionWrapper className="bg-off-white">
+      <SectionWrapper className="bg-cream">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-primary uppercase tracking-widest text-sm font-semibold mb-3">
+            <p className="text-amber uppercase tracking-[0.18em] text-sm font-semibold mb-3">
               Make a Difference
             </p>
             <h2 className="font-serif text-3xl md:text-4xl font-semibold mb-5">
@@ -134,9 +134,8 @@ export default function ConnectPage() {
               ))}
             </div>
           </div>
-          <div className="relative pb-4 pl-4">
-            <div className="absolute bottom-0 left-0 w-full h-full bg-accent rounded-sm" />
-            <div className="relative aspect-[3/4] rounded-sm overflow-hidden shadow-xl z-10">
+          <div className="rounded-sm" style={{ boxShadow: '-10px 10px 0 var(--color-amber)' }}>
+            <div className="relative aspect-[3/4] rounded-sm overflow-hidden">
               <Image
                 src="/Serve_With_Us.png"
                 alt="Volunteers serving together"
@@ -151,7 +150,7 @@ export default function ConnectPage() {
       {/* ─── Baptism & Membership ─── */}
       <SectionWrapper className="bg-white">
         <div className="text-center mb-12">
-          <p className="text-accent uppercase tracking-widest text-sm font-semibold mb-2">
+          <p className="text-amber uppercase tracking-[0.18em] text-sm font-semibold mb-2">
             Next Steps
           </p>
           <h2 className="font-serif text-3xl md:text-4xl font-semibold">
@@ -188,7 +187,7 @@ export default function ConnectPage() {
               up, serve, and grow together. We offer a membership class on the first Sunday of
               each month.
             </p>
-            <Link href="/contact" className="text-accent font-semibold text-sm hover:text-accent-dark">
+            <Link href="/contact" className="text-amber font-semibold text-sm hover:text-amber-dark">
               Join Our Next Class →
             </Link>
           </div>

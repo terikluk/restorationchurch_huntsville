@@ -79,12 +79,12 @@ export default function SermonsPage() {
       {/* ─── Featured Sermon ─── */}
       <SectionWrapper className="bg-white">
         <div className="text-center mb-10">
-          <p className="text-accent uppercase tracking-widest text-sm font-semibold mb-2">
+          <p className="text-amber uppercase tracking-[0.18em] text-sm font-semibold mb-2">
             Latest Message
           </p>
           <h2 className="font-serif text-3xl font-semibold">This Week&apos;s Sermon</h2>
         </div>
-        <div className="max-w-5xl mx-auto bg-off-white rounded-sm overflow-hidden shadow-lg flex flex-col md:flex-row">
+        <div className="max-w-5xl mx-auto bg-cream rounded-sm overflow-hidden shadow-lg flex flex-col md:flex-row">
           <div className="relative md:w-2/5 aspect-video md:aspect-auto min-h-52 overflow-hidden">
             <video
               autoPlay
@@ -105,7 +105,7 @@ export default function SermonsPage() {
             </div>
           </div>
           <div className="p-10 flex flex-col justify-center">
-            <p className="text-accent text-xs font-semibold uppercase tracking-widest mb-2">
+            <p className="text-amber text-xs font-semibold uppercase tracking-[0.18em] mb-2">
               Series: {featured.series}
             </p>
             <h3 className="font-serif text-3xl font-semibold mb-3">{featured.title}</h3>
@@ -134,9 +134,9 @@ export default function SermonsPage() {
       </SectionWrapper>
 
       {/* ─── Sermon Archive ─── */}
-      <SectionWrapper className="bg-off-white">
+      <SectionWrapper className="bg-cream">
         <div className="text-center mb-12">
-          <p className="text-primary uppercase tracking-widest text-sm font-semibold mb-2">
+          <p className="text-amber uppercase tracking-[0.18em] text-sm font-semibold mb-2">
             Sermon Archive
           </p>
           <h2 className="font-serif text-3xl font-semibold">Recent Messages</h2>
@@ -167,7 +167,7 @@ export default function SermonsPage() {
                 </div>
               </div>
               <div className="p-5">
-                <p className="text-accent text-xs font-semibold uppercase tracking-wide mb-1">
+                <p className="text-amber text-xs font-semibold uppercase tracking-[0.15em] mb-1">
                   {sermon.series}
                 </p>
                 <h3 className="font-serif text-lg font-semibold mb-1">{sermon.title}</h3>

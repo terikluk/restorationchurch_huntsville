@@ -84,7 +84,7 @@ export default function EventsPage() {
 
       <SectionWrapper className="bg-white">
         <div className="text-center mb-12">
-          <p className="text-accent uppercase tracking-widest text-sm font-semibold mb-2">
+          <p className="text-amber uppercase tracking-[0.18em] text-sm font-semibold mb-2">
             What&apos;s Coming Up
           </p>
           <h2 className="font-serif text-3xl md:text-4xl font-semibold">
@@ -152,7 +152,7 @@ export default function EventsPage() {
         subtext="We'd love to help you get plugged in. Reach out and we'll point you in the right direction."
         primaryLabel="Contact Us"
         primaryHref="/contact"
-        variant="accent"
+        variant="primary"
       />
     </>
   );
