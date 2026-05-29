@@ -84,7 +84,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-black/45" />
         <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
           <p className="text-accent-light uppercase tracking-[0.25em] text-sm font-semibold mb-4">
-            Welcome to Restoration Church · Huntsville, Alabama
+            Welcome to Restore Church · Huntsville, Alabama
           </p>
           <h1 className="font-serif text-5xl md:text-7xl font-bold mb-6 leading-tight">
             Come Home.<br />Find Life.
@@ -122,7 +122,7 @@ export default function HomePage() {
             We&apos;re So Glad You&apos;re Here
           </h2>
           <p className="text-blue-100 text-lg leading-relaxed">
-            At Restoration Church, we believe every person has a story — and that God is writing
+            At Restore Church, we believe every person has a story — and that God is writing
             something beautiful through yours. Whether you&apos;ve been walking with Jesus for decades
             or are just beginning to explore faith, there is a place for you here.
           </p>
@@ -183,7 +183,7 @@ export default function HomePage() {
           <div className="relative aspect-[4/3] rounded-sm overflow-hidden">
             <Image
               src="https://placehold.co/800x600/1B5EA6/FFFFFF?text=Welcome+Home"
-              alt="People gathered at Restoration Church Huntsville"
+              alt="People gathered at Restore Church Huntsville"
               fill
               className="object-cover"
             />

@@ -70,7 +70,7 @@ export default function GivePage() {
           </h2>
           <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
             <p>
-              At Restoration Church, we believe that generosity is more than a financial
+              At Restore Church, we believe that generosity is more than a financial
               decision — it&apos;s a spiritual discipline that shapes our hearts and advances God&apos;s
               kingdom in our city and around the world.
             </p>

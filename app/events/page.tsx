@@ -45,7 +45,7 @@ const events = [
     time: "12:30 PM – 3:00 PM",
     location: "Room 105, Main Building",
     description:
-      "Interested in becoming a member of Restoration Church? Join us for our monthly class where we share our vision, values, and the next steps for making this your church home.",
+      "Interested in becoming a member of Restore Church? Join us for our monthly class where we share our vision, values, and the next steps for making this your church home.",
     category: "Growth",
   },
   {
@@ -72,7 +72,7 @@ export default function EventsPage() {
     <>
       <PageHero
         title="Events"
-        subtitle="There's always something happening at Restoration Church. Come be part of it."
+        subtitle="There's always something happening at Restore Church. Come be part of it."
       />
 
       <SectionWrapper className="bg-white">
@@ -122,7 +122,7 @@ export default function EventsPage() {
           </h3>
           <p className="text-muted mb-6 max-w-lg mx-auto">
             Subscribe to our weekly email for the latest news, events, and announcements from
-            Restoration Church.
+            Restore Church.
           </p>
           <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
             <input

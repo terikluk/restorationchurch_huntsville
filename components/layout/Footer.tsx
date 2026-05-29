@@ -17,7 +17,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           {/* Church Info */}
           <div>
-            <h3 className="font-serif text-xl font-semibold mb-2">Restoration Church</h3>
+            <h3 className="font-serif text-xl font-semibold mb-2">Restore Church</h3>
             <p className="text-blue-300 text-sm mb-6 italic">Come Home. Find Life.</p>
             <address className="not-italic text-sm text-blue-200 space-y-1">
               <p>425 Church Street NW</p>
@@ -106,7 +106,7 @@ export default function Footer() {
       <div className="border-t border-blue-900">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-xs text-blue-300">
-            © {new Date().getFullYear()} Restoration Church Huntsville. All rights reserved.
+            © {new Date().getFullYear()} Restore Church Huntsville. All rights reserved.
           </p>
           <p className="text-xs text-blue-300">
             Site by <span className="text-white">Yellowhammer Studios</span>

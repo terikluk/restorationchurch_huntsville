@@ -173,7 +173,7 @@ export default function ConnectPage() {
             </div>
             <h3 className="font-serif text-2xl font-semibold mb-3">Membership</h3>
             <p className="text-muted leading-relaxed mb-4">
-              Becoming a member of Restoration Church means committing to this family — to show
+              Becoming a member of Restore Church means committing to this family — to show
               up, serve, and grow together. We offer a membership class on the first Sunday of
               each month.
             </p>

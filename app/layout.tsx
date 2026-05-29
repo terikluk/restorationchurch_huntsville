@@ -16,7 +16,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Restoration Church Huntsville",
+  title: "Restore Church Huntsville",
   description:
     "Come Home. Find Life. A community of faith in the heart of Huntsville, Alabama.",
 };

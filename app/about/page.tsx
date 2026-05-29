@@ -67,11 +67,11 @@ export default function AboutPage() {
               Our Story
             </p>
             <h2 className="font-serif text-3xl md:text-4xl font-semibold mb-6">
-              How Restoration Church Began
+              How Restore Church Began
             </h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                Restoration Church was planted in 2012 by a small group of families who shared a
+                Restore Church was planted in 2012 by a small group of families who shared a
                 vision for a church that was deeply rooted in Scripture and deeply committed to
                 the city of Huntsville. They gathered in living rooms, then a school gymnasium,
                 and finally found a home in the heart of the city.
@@ -83,7 +83,7 @@ export default function AboutPage() {
                 doors deserves to hear that they are loved, seen, and wanted.
               </p>
               <p>
-                Today, Restoration Church continues to grow — not just in numbers, but in depth.
+                Today, Restore Church continues to grow — not just in numbers, but in depth.
                 We are committed to raising up the next generation of leaders, serving our city
                 with excellence, and making disciples who make disciples.
               </p>
@@ -92,7 +92,7 @@ export default function AboutPage() {
           <div className="relative aspect-[3/4] rounded-sm overflow-hidden">
             <Image
               src="https://placehold.co/600x800/0F3D6E/FFFFFF?text=Our+Story"
-              alt="Restoration Church history"
+              alt="Restore Church history"
               fill
               className="object-cover"
             />

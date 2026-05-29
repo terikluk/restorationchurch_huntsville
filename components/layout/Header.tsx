@@ -41,7 +41,7 @@ export default function Header() {
             </div>
             <div className="leading-tight">
               <span className="block font-serif text-lg font-semibold text-primary">
-                Restoration Church
+                Restore Church
               </span>
               <span className="block text-xs font-sans font-normal text-muted tracking-widest uppercase">
                 Huntsville, Alabama
