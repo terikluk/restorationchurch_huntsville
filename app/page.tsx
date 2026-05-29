@@ -70,8 +70,18 @@ export default function HomePage() {
   return (
     <>
       {/* ─── Hero ─── */}
-      <section className="relative h-screen flex items-center justify-center bg-gradient-to-br from-primary-dark via-primary to-accent overflow-hidden">
-        <div className="absolute inset-0 bg-black/25" />
+      <section className="relative h-screen flex items-center justify-center bg-primary-dark overflow-hidden">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="/Cross_Sunset.mov" type="video/mp4" />
+          <source src="/Cross_Sunset.mov" type="video/quicktime" />
+        </video>
+        <div className="absolute inset-0 bg-black/45" />
         <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
           <p className="text-accent-light uppercase tracking-[0.25em] text-sm font-semibold mb-4">
             Welcome to Restoration Church · Huntsville, Alabama
