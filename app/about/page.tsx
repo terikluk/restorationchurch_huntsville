@@ -31,13 +31,13 @@ const leadership = [
     name: "Pastor James Mercer",
     title: "Lead Pastor",
     bio: "Pastor James has served in ministry for over 20 years. A graduate of Samford University and Southern Seminary, he and his wife Emily have called Huntsville home since 2011. His passion is seeing people find their identity in Christ and live with purpose.",
-    imageUrl: "https://placehold.co/400x500/1B5EA6/FFFFFF?text=Pastor+James",
+    imageUrl: "/Mercer_Male.jpg",
   },
   {
     name: "Emily Mercer",
     title: "Pastoral Care & Women's Ministry",
     bio: "Emily leads our Women's Circle and pastoral care team with warmth and wisdom. A licensed counselor and mother of three, she has a heart for walking alongside people through life's hardest seasons with grace and truth.",
-    imageUrl: "https://placehold.co/400x500/2E7D52/FFFFFF?text=Emily+Mercer",
+    imageUrl: "/Mercer_Female.jpg",
   },
 ];
 
