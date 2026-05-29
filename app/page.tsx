@@ -50,7 +50,11 @@ export default function HomePage() {
     <>
       {/* ─── Hero ─── */}
       <section className="relative h-screen flex items-center justify-center bg-primary-dark overflow-hidden">
-        <div className="absolute inset-0 bg-black/25" />
+        <video autoPlay muted loop playsInline className="absolute left-0 right-0 bottom-0 w-full object-cover" style={{ top: '72px' }}>
+          <source src="/Cross_Sunset.mov" type="video/mp4" />
+          <source src="/Cross_Sunset.mov" type="video/quicktime" />
+        </video>
+        <div className="absolute inset-0 bg-black/45" />
         <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
           <p className="text-amber uppercase tracking-[0.18em] text-sm font-semibold mb-4">
             Welcome to Restore Church · Huntsville, Alabama
