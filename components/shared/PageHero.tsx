@@ -9,7 +9,7 @@ interface PageHeroProps {
 
 export default function PageHero({ title, subtitle, videoSrc, children }: PageHeroProps) {
   return (
-    <section className="relative bg-primary-dark min-h-[80vh] flex items-center pt-40 pb-36 px-4 overflow-hidden">
+    <section className="relative bg-primary-dark min-h-[80vh] flex items-center pt-28 pb-52 px-4 overflow-hidden">
       {videoSrc && (
         <video
           autoPlay
@@ -26,6 +26,7 @@ export default function PageHero({ title, subtitle, videoSrc, children }: PageHe
         <div className="absolute inset-0 bg-gradient-to-r from-primary-dark to-primary" />
       )}
       <div className="absolute inset-0 bg-black/50" />
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black/40 to-transparent" />
       <div className="relative z-10 max-w-4xl mx-auto text-center text-white">
         <h1 className="font-serif text-4xl md:text-6xl font-semibold mb-4 leading-tight">
           {title}
