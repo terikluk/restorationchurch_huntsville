@@ -116,7 +116,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── Welcome Strip ─── */}
-      <section className="bg-primary py-16 px-4 text-white text-center">
+      <section className="bg-primary py-28 px-4 text-white text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold mb-5">
             We&apos;re So Glad You&apos;re Here
@@ -233,7 +233,7 @@ export default function HomePage() {
       </SectionWrapper>
 
       {/* ─── Mission Statement ─── */}
-      <section className="bg-primary-dark text-white py-24 px-4">
+      <section className="bg-primary-dark text-white py-40 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <div className="w-16 h-0.5 bg-accent mx-auto mb-10" />
           <p className="text-blue-300 uppercase tracking-widest text-xs font-semibold mb-6">

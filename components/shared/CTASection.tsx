@@ -23,7 +23,7 @@ export default function CTASection({
   return (
     <section
       className={clsx(
-        "py-20 px-4 text-center text-white",
+        "py-32 px-4 text-center text-white",
         variant === "primary" ? "bg-primary" : "bg-accent"
       )}
     >
