@@ -255,14 +255,18 @@ export default function HomePage() {
           <h2 className="font-serif text-3xl md:text-4xl font-semibold">This Week&apos;s Sermon</h2>
         </div>
         <div className="max-w-4xl mx-auto bg-off-white rounded-sm overflow-hidden shadow-md flex flex-col md:flex-row">
-          <div className="relative md:w-2/5 aspect-video md:aspect-auto min-h-48">
-            <Image
-              src="https://placehold.co/600x400/0F3D6E/E8F1FA?text=The+Renewing+Mind"
-              alt="Sermon: The Renewing Mind"
-              fill
-              className="object-cover"
-            />
-            <div className="absolute inset-0 flex items-center justify-center bg-black/20">
+          <div className="relative md:w-2/5 aspect-video md:aspect-auto min-h-48 overflow-hidden">
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="absolute inset-0 w-full h-full object-cover"
+            >
+              <source src="/Bible.mov" type="video/mp4" />
+              <source src="/Bible.mov" type="video/quicktime" />
+            </video>
+            <div className="absolute inset-0 flex items-center justify-center bg-black/30">
               <div className="w-16 h-16 bg-white/95 rounded-full flex items-center justify-center shadow-lg">
                 <svg className="w-6 h-6 text-primary ml-1" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M8 5v14l11-7z" />

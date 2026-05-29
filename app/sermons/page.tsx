@@ -79,14 +79,18 @@ export default function SermonsPage() {
           <h2 className="font-serif text-3xl font-semibold">This Week&apos;s Sermon</h2>
         </div>
         <div className="max-w-5xl mx-auto bg-off-white rounded-sm overflow-hidden shadow-lg flex flex-col md:flex-row">
-          <div className="relative md:w-2/5 aspect-video md:aspect-auto min-h-52">
-            <Image
-              src={`https://placehold.co/700x500/${featured.imageColor}/FFFFFF?text=${encodeURIComponent(featured.title)}`}
-              alt={featured.title}
-              fill
-              className="object-cover"
-            />
-            <div className="absolute inset-0 flex items-center justify-center bg-black/25">
+          <div className="relative md:w-2/5 aspect-video md:aspect-auto min-h-52 overflow-hidden">
+            <video
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="absolute inset-0 w-full h-full object-cover"
+            >
+              <source src="/Bible.mov" type="video/mp4" />
+              <source src="/Bible.mov" type="video/quicktime" />
+            </video>
+            <div className="absolute inset-0 flex items-center justify-center bg-black/30">
               <div className="w-20 h-20 bg-white/95 rounded-full flex items-center justify-center shadow-xl">
                 <svg className="w-8 h-8 text-primary ml-1" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M8 5v14l11-7z" />
