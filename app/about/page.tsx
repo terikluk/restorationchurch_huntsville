@@ -101,7 +101,7 @@ export default function AboutPage() {
             <div className="absolute bottom-0 left-0 w-full h-full bg-primary rounded-sm" />
             <div className="relative aspect-[3/4] rounded-sm overflow-hidden shadow-xl z-10">
               <Image
-                src="/About_Us.png"
+                src="/about.png"
                 alt="Restore Church history"
                 fill
                 className="object-cover"
