@@ -53,7 +53,7 @@ export default function ContactPage() {
         title="Contact Us"
         subtitle="We'd love to hear from you. Reach out any time — we're here to help."
         videoSrc="/contact.mov"
-        videoPosition="object-[center_20%]"
+        videoPosition="object-top"
       />
 
       <SectionWrapper className="bg-white">
