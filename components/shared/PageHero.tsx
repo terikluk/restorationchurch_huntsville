@@ -9,7 +9,7 @@ interface PageHeroProps {
 
 export default function PageHero({ title, subtitle, videoSrc, children }: PageHeroProps) {
   return (
-    <section className="relative bg-primary-dark pt-36 pb-20 px-4 overflow-hidden">
+    <section className="relative bg-primary-dark min-h-[60vh] flex items-center pt-36 pb-28 px-4 overflow-hidden">
       {videoSrc && (
         <video
           autoPlay
