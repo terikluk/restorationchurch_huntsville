@@ -8,7 +8,7 @@ interface PageHeroProps {
   children?: ReactNode;
 }
 
-export default function PageHero({ title, subtitle, videoSrc, videoPosition = "object-center", children }: PageHeroProps) {
+export default function PageHero({ title, subtitle, videoSrc, videoPosition = "center center", children }: PageHeroProps) {
   return (
     <section className="relative bg-primary-dark min-h-[70vh] flex items-center pt-24 pb-16 md:pt-28 md:pb-36 px-4 overflow-hidden">
       {videoSrc && (
@@ -17,7 +17,8 @@ export default function PageHero({ title, subtitle, videoSrc, videoPosition = "o
           muted
           loop
           playsInline
-          className={`absolute inset-0 w-full h-full object-cover ${videoPosition}`}
+          className="absolute inset-0 w-full h-full object-cover"
+          style={{ objectPosition: videoPosition }}
         >
           <source src={videoSrc} type="video/mp4" />
           <source src={videoSrc} type="video/quicktime" />
