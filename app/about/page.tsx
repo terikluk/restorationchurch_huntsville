@@ -57,6 +57,7 @@ export default function AboutPage() {
       <PageHero
         title="About Us"
         subtitle="We are a community of imperfect people pursuing a perfect Savior — together."
+        videoSrc="/About.mov"
       />
 
       {/* ─── Our Story ─── */}

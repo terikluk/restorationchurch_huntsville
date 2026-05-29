@@ -3,13 +3,30 @@ import { ReactNode } from "react";
 interface PageHeroProps {
   title: string;
   subtitle?: string;
+  videoSrc?: string;
   children?: ReactNode;
 }
 
-export default function PageHero({ title, subtitle, children }: PageHeroProps) {
+export default function PageHero({ title, subtitle, videoSrc, children }: PageHeroProps) {
   return (
-    <section className="bg-gradient-to-r from-primary-dark to-primary pt-36 pb-20 px-4">
-      <div className="max-w-4xl mx-auto text-center text-white">
+    <section className="relative bg-primary-dark pt-36 pb-20 px-4 overflow-hidden">
+      {videoSrc && (
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src={videoSrc} type="video/mp4" />
+          <source src={videoSrc} type="video/quicktime" />
+        </video>
+      )}
+      {!videoSrc && (
+        <div className="absolute inset-0 bg-gradient-to-r from-primary-dark to-primary" />
+      )}
+      <div className="absolute inset-0 bg-black/50" />
+      <div className="relative z-10 max-w-4xl mx-auto text-center text-white">
         <h1 className="font-serif text-4xl md:text-6xl font-semibold mb-4 leading-tight">
           {title}
         </h1>

@@ -67,6 +67,7 @@ export default function SermonsPage() {
       <PageHero
         title="Sermons"
         subtitle="Every message is an invitation — to know God more and live differently."
+        videoSrc="/Sermons.mov"
       />
 
       {/* ─── Featured Sermon ─── */}

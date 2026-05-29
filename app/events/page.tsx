@@ -72,7 +72,8 @@ export default function EventsPage() {
     <>
       <PageHero
         title="Events"
-        subtitle="There's always something happening at Restore Church. Come be part of it."
+        subtitle="There&apos;s always something happening at Restore Church. Come be part of it."
+        videoSrc="/Events.mov"
       />
 
       <SectionWrapper className="bg-white">

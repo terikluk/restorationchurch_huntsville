@@ -57,6 +57,7 @@ export default function GivePage() {
       <PageHero
         title="Generosity"
         subtitle="We give because we have been given to. Everything starts with gratitude."
+        videoSrc="/Give.mov"
       />
 
       {/* ─── Philosophy ─── */}
