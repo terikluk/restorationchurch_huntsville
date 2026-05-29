@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import PageHero from "@/components/shared/PageHero";
+
+export const metadata: Metadata = {
+  title: "Give | Restore Church Huntsville",
+  description: "Support the mission of Restore Church Huntsville through generous giving. Give online, in person, or via text.",
+};
 import CTASection from "@/components/shared/CTASection";
 import SectionWrapper from "@/components/shared/SectionWrapper";
 
@@ -94,7 +100,9 @@ export default function GivePage() {
             Secure, simple, and available any time. Your gift makes a difference.
           </p>
           <a
-            href="#"
+            href="https://tithe.ly/give_new/www/#/tithely/give-one-time/restore-church-hsv"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-accent hover:bg-accent-dark text-white font-semibold px-10 py-5 rounded-sm transition-colors text-xl"
           >
             Give Now

@@ -1,6 +1,12 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import PageHero from "@/components/shared/PageHero";
+
+export const metadata: Metadata = {
+  title: "Get Connected | Restore Church Huntsville",
+  description: "Find your place at Restore Church Huntsville. Join a Life Group, serve on a team, or take your next step through baptism and membership.",
+};
 import CTASection from "@/components/shared/CTASection";
 import SectionWrapper from "@/components/shared/SectionWrapper";
 

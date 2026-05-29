@@ -38,19 +38,19 @@ export default function Footer() {
             </address>
             {/* Social Icons */}
             <div className="flex gap-4 mt-6">
-              <a href="#" aria-label="Facebook" className="text-blue-300 hover:text-white transition-colors">
+              <a href="https://www.facebook.com/restorechurchhsv" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-blue-300 hover:text-white transition-colors">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
                 </svg>
               </a>
-              <a href="#" aria-label="Instagram" className="text-blue-300 hover:text-white transition-colors">
+              <a href="https://www.instagram.com/restorechurchhsv" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-blue-300 hover:text-white transition-colors">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                   <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
                   <circle cx="12" cy="12" r="4" />
                   <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
                 </svg>
               </a>
-              <a href="#" aria-label="YouTube" className="text-blue-300 hover:text-white transition-colors">
+              <a href="https://www.youtube.com/@restorechurchhsv" target="_blank" rel="noopener noreferrer" aria-label="YouTube" className="text-blue-300 hover:text-white transition-colors">
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.97C18.88 4 12 4 12 4s-6.88 0-8.59.45A2.78 2.78 0 001.46 6.42 29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.41 19.1C5.12 19.55 12 19.55 12 19.55s6.88 0 8.59-.45a2.78 2.78 0 001.95-1.97 29 29 0 00.46-5.33 29 29 0 00-.46-5.33z" />
                   <polygon fill="white" points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />

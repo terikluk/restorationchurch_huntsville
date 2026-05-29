@@ -1,5 +1,11 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import PageHero from "@/components/shared/PageHero";
+
+export const metadata: Metadata = {
+  title: "About Us | Restore Church Huntsville",
+  description: "Learn about Restore Church Huntsville — our story, mission, values, and the leadership team behind our community of faith.",
+};
 import CTASection from "@/components/shared/CTASection";
 import SectionWrapper from "@/components/shared/SectionWrapper";
 

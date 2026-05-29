@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import PageHero from "@/components/shared/PageHero";
+
+export const metadata: Metadata = {
+  title: "Events | Restore Church Huntsville",
+  description: "Stay up to date with upcoming events at Restore Church Huntsville. From family gatherings to serve days, there's always something happening.",
+};
 import CTASection from "@/components/shared/CTASection";
 import SectionWrapper from "@/components/shared/SectionWrapper";
 

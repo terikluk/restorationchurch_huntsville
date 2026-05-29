@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import PageHero from "@/components/shared/PageHero";
+
+export const metadata: Metadata = {
+  title: "Sermons | Restore Church Huntsville",
+  description: "Watch and listen to the latest messages from Restore Church Huntsville. Faith-filled teaching for everyday life.",
+};
 import CTASection from "@/components/shared/CTASection";
 import SectionWrapper from "@/components/shared/SectionWrapper";
 
@@ -7,7 +13,7 @@ const sermons = [
     series: "Renewed",
     title: "The Renewing Mind",
     pastor: "Pastor James Mercer",
-    date: "June 1, 2025",
+    date: "May 25, 2026",
     passage: "Romans 12:1–2",
     duration: "42 min",
     imageColor: "0F3D6E",
@@ -16,7 +22,7 @@ const sermons = [
     series: "Renewed",
     title: "New Every Morning",
     pastor: "Pastor James Mercer",
-    date: "May 25, 2025",
+    date: "May 18, 2026",
     passage: "Lamentations 3:22–23",
     duration: "38 min",
     videoSrc: "/New_Every_Morning.mov",
@@ -25,7 +31,7 @@ const sermons = [
     series: "Renewed",
     title: "The God Who Restores",
     pastor: "Emily Mercer",
-    date: "May 18, 2025",
+    date: "May 11, 2026",
     passage: "Joel 2:25",
     duration: "35 min",
     videoSrc: "/The_God_Who_Restores.mov",
@@ -34,7 +40,7 @@ const sermons = [
     series: "Roots",
     title: "Abiding in the Vine",
     pastor: "Pastor James Mercer",
-    date: "May 11, 2025",
+    date: "May 4, 2026",
     passage: "John 15:1–8",
     duration: "44 min",
     videoSrc: "/Abiding_In_The_Vine.mov",
@@ -43,7 +49,7 @@ const sermons = [
     series: "Roots",
     title: "Deep Waters",
     pastor: "Pastor James Mercer",
-    date: "May 4, 2025",
+    date: "April 27, 2026",
     passage: "Psalm 1",
     duration: "40 min",
     videoSrc: "/Deep_Waters.mov",
@@ -52,7 +58,7 @@ const sermons = [
     series: "Roots",
     title: "Built on the Rock",
     pastor: "Emily Mercer",
-    date: "April 27, 2025",
+    date: "April 20, 2026",
     passage: "Matthew 7:24–27",
     duration: "37 min",
     videoSrc: "/Built_ON_The_Rock.mov",

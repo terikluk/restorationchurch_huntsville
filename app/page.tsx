@@ -280,7 +280,7 @@ export default function HomePage() {
             </p>
             <h3 className="font-serif text-2xl font-semibold mb-3">The Renewing Mind</h3>
             <p className="text-muted text-sm mb-4">
-              Pastor James Mercer · June 1, 2025 · Romans 12:1–2
+              Pastor James Mercer · May 25, 2026 · Romans 12:1–2
             </p>
             <p className="text-gray-700 mb-6 leading-relaxed">
               What would it look like if every area of your life was transformed from the inside

@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import PageHero from "@/components/shared/PageHero";
+
+export const metadata: Metadata = {
+  title: "Contact Us | Restore Church Huntsville",
+  description: "Get in touch with Restore Church Huntsville. We'd love to hear from you — find our address, service times, and contact form here.",
+};
 import SectionWrapper from "@/components/shared/SectionWrapper";
 
 const contactDetails = [
@@ -110,7 +116,7 @@ export default function ContactPage() {
               <p className="font-semibold text-primary-dark mb-1">425 Church Street NW</p>
               <p className="text-muted text-sm mb-4">Huntsville, AL 35801</p>
               <a
-                href="https://maps.google.com"
+                href="https://www.google.com/maps/search/425+Church+Street+NW+Huntsville+AL+35801"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-primary hover:bg-primary-dark text-white text-sm font-semibold px-5 py-2.5 rounded-sm transition-colors"
