@@ -65,6 +65,7 @@ export default function ConnectPage() {
         title="Get Connected"
         subtitle="The Christian life was never meant to be lived alone. Find your place in this community."
         videoSrc="/Connect.mov"
+        videoPosition="object-bottom"
       />
 
       {/* ─── Life Groups ─── */}

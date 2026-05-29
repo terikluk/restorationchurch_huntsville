@@ -4,10 +4,11 @@ interface PageHeroProps {
   title: string;
   subtitle?: string;
   videoSrc?: string;
+  videoPosition?: string;
   children?: ReactNode;
 }
 
-export default function PageHero({ title, subtitle, videoSrc, children }: PageHeroProps) {
+export default function PageHero({ title, subtitle, videoSrc, videoPosition = "object-center", children }: PageHeroProps) {
   return (
     <section className="relative bg-primary-dark min-h-[80vh] flex items-center pt-28 pb-52 px-4 overflow-hidden">
       {videoSrc && (
@@ -16,7 +17,7 @@ export default function PageHero({ title, subtitle, videoSrc, children }: PageHe
           muted
           loop
           playsInline
-          className="absolute inset-0 w-full h-full object-cover"
+          className={`absolute inset-0 w-full h-full object-cover ${videoPosition}`}
         >
           <source src={videoSrc} type="video/mp4" />
           <source src={videoSrc} type="video/quicktime" />
