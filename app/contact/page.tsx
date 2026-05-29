@@ -5,6 +5,7 @@ export const metadata: Metadata = {
   title: "Contact Us | Restore Church Huntsville",
   description: "Get in touch with Restore Church Huntsville. We'd love to hear from you — find our address, service times, and contact form here.",
 };
+
 import SectionWrapper from "@/components/shared/SectionWrapper";
 
 const contactDetails = [
@@ -51,6 +52,8 @@ export default function ContactPage() {
       <PageHero
         title="Contact Us"
         subtitle="We'd love to hear from you. Reach out any time — we're here to help."
+        videoSrc="/contact.mov"
+        videoPosition="object-[center_20%]"
       />
 
       <SectionWrapper className="bg-white">
