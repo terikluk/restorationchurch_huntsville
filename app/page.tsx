@@ -86,7 +86,7 @@ export default function HomePage() {
           <p className="text-accent-light uppercase tracking-[0.25em] text-sm font-semibold mb-4">
             Welcome to Restore Church · Huntsville, Alabama
           </p>
-          <h1 className="font-serif text-5xl md:text-7xl font-bold mb-6 leading-tight">
+          <h1 className="font-serif text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
             Come Home.<br />Find Life.
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 mb-10 max-w-2xl mx-auto leading-relaxed">
@@ -116,7 +116,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── Welcome Strip ─── */}
-      <section className="bg-primary py-28 px-4 text-white text-center">
+      <section className="bg-primary py-16 md:py-24 px-4 text-white text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold mb-5">
             We&apos;re So Glad You&apos;re Here
@@ -233,7 +233,7 @@ export default function HomePage() {
       </SectionWrapper>
 
       {/* ─── Mission Statement ─── */}
-      <section className="bg-primary-dark text-white py-40 px-4">
+      <section className="bg-primary-dark text-white py-16 md:py-28 lg:py-40 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <div className="w-16 h-0.5 bg-accent mx-auto mb-10" />
           <p className="text-blue-300 uppercase tracking-widest text-xs font-semibold mb-6">

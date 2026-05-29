@@ -91,7 +91,7 @@ export default function GivePage() {
       </SectionWrapper>
 
       {/* ─── Give Now CTA ─── */}
-      <section className="bg-gradient-to-r from-primary-dark to-primary py-40 px-4 text-white text-center">
+      <section className="bg-gradient-to-r from-primary-dark to-primary py-16 md:py-28 lg:py-40 px-4 text-white text-center">
         <div className="max-w-2xl mx-auto">
           <h2 className="font-serif text-3xl md:text-5xl font-semibold mb-4">
             Give Online Today
