@@ -182,7 +182,7 @@ export default function HomePage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative aspect-[4/3] rounded-sm overflow-hidden">
             <Image
-              src="https://placehold.co/800x600/1B5EA6/FFFFFF?text=Welcome+Home"
+              src="/New_here.png"
               alt="People gathered at Restore Church Huntsville"
               fill
               className="object-cover"
