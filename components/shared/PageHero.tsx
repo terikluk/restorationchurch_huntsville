@@ -17,8 +17,8 @@ export default function PageHero({ title, subtitle, videoSrc, videoPosition = "c
           muted
           loop
           playsInline
-          className="absolute inset-0 w-full h-full object-cover"
-          style={{ objectPosition: videoPosition }}
+          className="absolute left-0 right-0 bottom-0 w-full object-cover"
+          style={{ top: '72px', objectPosition: videoPosition }}
         >
           <source src={videoSrc} type="video/mp4" />
           <source src={videoSrc} type="video/quicktime" />
