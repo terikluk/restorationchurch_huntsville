@@ -20,19 +20,19 @@ export default function Footer() {
             <h3 className="font-serif text-xl font-semibold mb-2">Restoration Church</h3>
             <p className="text-blue-300 text-sm mb-6 italic">Come Home. Find Life.</p>
             <address className="not-italic text-sm text-blue-200 space-y-1">
-              <p>2200 Memorial Pkwy NW</p>
+              <p>425 Church Street NW</p>
               <p>Huntsville, AL 35801</p>
               <p className="pt-2">
-                <a href="tel:+12565550187" className="hover:text-white transition-colors">
-                  (256) 555-0187
+                <a href="tel:+12565550143" className="hover:text-white transition-colors">
+                  (256) 555-0143
                 </a>
               </p>
               <p>
                 <a
-                  href="mailto:hello@restorationhuntsville.org"
+                  href="mailto:info@restorationchurchhsv.org"
                   className="hover:text-white transition-colors break-all"
                 >
-                  hello@restorationhuntsville.org
+                  info@restorationchurchhsv.org
                 </a>
               </p>
             </address>
@@ -94,7 +94,7 @@ export default function Footer() {
               <p className="text-blue-200 text-sm">
                 <span className="text-white font-semibold">Location</span>
                 <br />
-                2200 Memorial Pkwy NW<br />
+                425 Church Street NW<br />
                 Huntsville, AL 35801
               </p>
             </div>
